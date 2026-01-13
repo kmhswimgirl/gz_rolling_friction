@@ -1,0 +1,2 @@
+source;share/gz_rolling_friction/environment/ament_prefix_path.sh
+source;share/gz_rolling_friction/environment/path.sh
