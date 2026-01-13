@@ -21,7 +21,7 @@ namespace rolling_friction {
 			bool firstUpdate = true; 
 		
 		public: 
-			void Configure(const gz::sim::Entity &entity, const std::shared_ptr<const sdf::Element> &sdf, gz::sim::EntityComponentManager &ecm, gz::sim::EventManager &)                  override { 
+			void Configure(const gz::sim::Entity &entity, const std::shared_ptr<const sdf::Element> &sdf, gz::sim::EntityComponentManager &ecm, gz::sim::EventManager &) override { 
 				this->modelEntity = entity; this->model = gz::sim::Model(entity); 
 				std::string linkName = sdf->Get<std::string>("link_name", "link").first; 
 				this->coefficient = sdf->Get<double>("coefficient", 0.01).first; 

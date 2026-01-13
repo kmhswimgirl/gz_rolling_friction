@@ -32,7 +32,9 @@ target_link_libraries(rollingFriction
 
 # Install the plugin library
 install(TARGETS rollingFriction
-  DESTINATION lib/${PROJECT_NAME}
+  LIBRARY DESTINATION lib
+  ARCHIVE DESTINATION lib
+  RUNTIME DESTINATION bin
 )
 
 ament_package()
