@@ -91,7 +91,7 @@ namespace rolling_friction {
 			return velocity; 
 		} 
 	}; 
-} 
+} //namespace
 	
 GZ_ADD_PLUGIN(rolling_friction::RollingFrictionPlugin, 
 			  gz::sim::System, 
