@@ -4,13 +4,11 @@ A gazebo sim plugin that solves the rolling friction problem in Gazebo Harmonic.
 rollingFriction.cc is adapted from this [Robotics Stack Exchange post](https://robotics.stackexchange.com/questions/115581/sdf-example-of-rolling-friction-for-gazebo-harmonic).
 
 ## Build Instructions
-1. Clone this repository anywhere.
+1. clone this repository
 2. cd into the plugin directory
-3. `rm -rf build log install`
-4. `colcon build` 
+3. `colcon build` 
 
 ## Using the plugin in a SDF
-
 Here is an example of the plugin being used with a sphere model:
 
 ```xml
